@@ -1,5 +1,7 @@
 @import url(global.css);
 
+
+/* --------------------------------Header-------------------------------------------- */
 header {
     width: 100%;
     display: flex;
@@ -15,9 +17,10 @@ nav {
     align-items: center;
 }
 
-a {
+.nav-item {
     text-decoration: none;
     font-family: var(--font);
+    color: var(--color-neutral-black);
 }
 
 .button-wrapper {
@@ -34,6 +37,7 @@ a {
     padding: 10px;
     font-family: var(--font);
     background-color: var(--color-neutral-white);
+    color: var(--color-primary);
 }
 
 .signup {
@@ -43,4 +47,91 @@ a {
     font-family: var(--font);
     background-color: var(--color-primary);
     border-radius: 6px;
+    color: var(--color-neutral-white);
+}
+
+/* -------------------------------footer---------------------------------------- */
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-footer {
+    background-color: var(--color-neutral-silver);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title-footer {
+    font-family: var(--font);
+    font-size: 64px;
+    width: 80%;
+    text-align: center;
+}
+
+.cta-footer-button {
+    background-color: var(--color-primary);
+    width: 178px;
+    height: 52px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background-color: var(--color-secondary);
+    width: 100%;
+    height: 328px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.copyright {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.copyright2 {
+    font-family: var(--font);
+    color: var(--color-neutral-silver);
+}
+
+.services {
+    width: 635px;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.company, .support {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.notify {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-iten {
+    font-family: var(--font);
+    text-decoration: none;
+    color: var(--color-neutral-silver);
+}
+
+.footer-subtitle {
+    font-family: var(--font);
+    color: var(--color-neutral-silver);
 }
