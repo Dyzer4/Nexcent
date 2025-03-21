@@ -15,12 +15,20 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-transform: capitalize;
 }
 
 .nav-item {
     text-decoration: none;
     font-family: var(--font);
     color: var(--color-neutral-black);
+}
+
+.nav-item-captalize {
+    text-decoration: none;
+    font-family: var(--font);
+    color: var(--color-neutral-black);
+    text-transform: uppercase;
 }
 
 .button-wrapper {
@@ -38,6 +46,7 @@ nav {
     font-family: var(--font);
     background-color: var(--color-neutral-white);
     color: var(--color-primary);
+    text-transform: capitalize;
 }
 
 .signup {
@@ -49,6 +58,50 @@ nav {
     border-radius: 6px;
     color: var(--color-neutral-white);
 }
+/* -----------------------------section hero ----------------------------------- */
+
+.hero {
+    font-family: var(--font);
+    height: 599px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner {
+    width: 657px;
+    height: 276px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    width: 100%;
+    font-size: 64px;
+    color: var(--color-neutral-d_grey);
+}
+
+.span-hero {
+    color: var(--color-primary);
+}
+
+.p-hero {
+    color: var(--color-neutral-grey);
+}
+
+.button-hero {
+    text-transform: capitalize;
+    background-color: var(--color-primary);
+    color: var(--color-neutral-white);
+    padding: 14px 32px;
+    border-radius: 4px;
+    width: 128px;
+    height: 52px;
+}
+
+/* -----------------------------section clients ----------------------------------- */
+
 
 /* -------------------------------footer---------------------------------------- */
 
@@ -70,8 +123,12 @@ footer {
 .title-footer {
     font-family: var(--font);
     font-size: 64px;
-    width: 80%;
+    width: 60%;
     text-align: center;
+}
+
+.p-footer {
+    color: var(--color-neutral-white);
 }
 
 .cta-footer-button {
