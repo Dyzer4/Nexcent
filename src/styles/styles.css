@@ -8,7 +8,7 @@ header {
 }
 
 nav {
-    background-color: burlywood;
+    background-color: var(--color-neutral-white);
     width: 50%;
     display: flex;
     justify-content: space-between;
@@ -21,16 +21,26 @@ a {
 }
 
 .button-wrapper {
+    width: 182px;
+    height: 40px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 .login {
+    width: 77px;
+    height: 40px;
     padding: 10px;
-
+    font-family: var(--font);
+    background-color: var(--color-neutral-white);
 }
 
 .signup {
-    padding: 10px;
+    width: 91px;
+    height: 40px;
+    padding: 10px 20px;
+    font-family: var(--font);
+    background-color: var(--color-primary);
+    border-radius: 6px;
 }
