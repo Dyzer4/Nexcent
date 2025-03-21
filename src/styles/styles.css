@@ -1,0 +1,36 @@
+@import url(global.css);
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    background-color: burlywood;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-family: var(--font);
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    padding: 10px;
+
+}
+
+.signup {
+    padding: 10px;
+}
