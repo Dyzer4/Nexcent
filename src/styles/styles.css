@@ -255,6 +255,70 @@ h1 {
     color: var(--color-neutral-grey);
 
 }
+/* -------------------------------section pixelgrade---------------------------------------- */
+
+.pixelgrade {
+    padding: 0px 10%;
+    margin-top: 40px;
+    height: 433px;
+    font-family: var(--font);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-pixel-div {
+    width: 442px;
+    height: 433px;
+    display: flex;
+    align-items: center;
+}
+
+.img-pixel {
+    width: 442px;
+    height: 329px;
+}
+
+.pixel-info {
+    width: 46%;
+    height: 268px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pixel-text {
+    height: 184px;
+}
+
+.pixel-title {
+    color: var(--color-neutral-d_grey);
+    font-size: var(--headline-2);
+}
+
+.pixel-parag {
+    color: var(--color-neutral-grey);
+    font-size: var(--body-3);
+}
+
+.pixel-button {
+    background-color: var(--color-primary);
+    border-radius: 4px;
+    width: 151px;
+    height: 52px;
+    font-size: var(--body-2);
+    color: var(--color-neutral-white);
+}
+
+
+
+/* -------------------------------section numbers---------------------------------------- */
+
+/* -------------------------------section instruction---------------------------------------- */
+
+/* -------------------------------section custumers---------------------------------------- */
+
+/* -------------------------------section pixelgrade---------------------------------------- */
 
 /* -------------------------------footer---------------------------------------- */
 
