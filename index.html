@@ -4,7 +4,9 @@
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./src/styles/styles.css">
     <meta name="author" content="Dyego da Silva Roque">
     <meta name="Description" content="Este é um site que desenvolvi a partir de um figma">
@@ -17,6 +19,9 @@
 </head>
 
 <body>
+
+    <div class="grid"></div>
+    <div class="grid2"></div>
     <header>
         <img src="./src/assets/img/logo.svg" alt="Logo Nexcent" loading="lazy">
 
@@ -34,18 +39,44 @@
             <button class="signup">Sign up</button>
         </div>
     </header>
+    
+    <main>
+        <section class="hero">
+            <div class="banner">
+                <div class="text">
+                    <h1>Lesson and insights <span class="span-hero">from 8 years</span></h1>
+                    <p class="p-hero">Where to grow your business as a photografer: site or social media?</p>
+                </div>
 
-    <section class="hero">
-        <div class="banner">
-            <div class="text">
-                <h1>Lesson and insights <span class="span-hero">from 8 years</span></h1>
-                <p class="p-hero">Where to grow your business as a photografer: site or social media?</p>
-            </div> 
-                
-            <button class="button-hero">register</button>
-        </div>
-        <img src="./src/assets/img/image-hero.png" alt="Homem segurando notebook olhando para um monitor com códigos" title="Homem segurando notebook olhando para um monitor com códigos" loading="lazy">
-    </section>
+                <button class="button-hero">register</button>
+            </div>
+            <img src="./src/assets/img/image-hero.png"
+                alt="Homem segurando notebook olhando para um monitor com códigos"
+                title="Homem segurando notebook olhando para um monitor com códigos" loading="lazy" class="img-hero">
+        </section>
+        <section class="clients">
+            <div class="text-clients">
+                <h2 class="title-clients">Our Clients</h2>
+                <p class="p-clients">We have been working with some Fortune 500+ clients</p>
+            </div>
+            <div class="logo-clients">
+                <img src="./src/assets/img/logo.png" alt="Logo" title="Logo" loading="lazy">
+                <img src="./src/assets/img/logo-1.png" alt="Logo" title="Logo" loading="lazy">
+                <img src="./src/assets/img/logo-2.png" alt="Logo" title="Logo" loading="lazy">
+                <img src="./src/assets/img/logo-3.png" alt="Logo" title="Logo" loading="lazy">
+                <img src="./src/assets/img/logo-4.png" alt="Logo" title="Logo" loading="lazy">
+                <img src="./src/assets/img/logo-5.png" alt="Logo" title="Logo" loading="lazy">
+                <img src="./src/assets/img/logo-6.png" alt="Logo" title="Logo" loading="lazy">
+            </div>
+        </section>
+        <section class="community">
+            <div class="comm-title">
+                <h2 class="h2-comm">Manage your entire community in a single system</h2>
+                <p class="p-comm">who is Nexcent suitable for?</p>
+            </div>
+        </section>
+    </main>
+
 
     <footer>
         <div class="cta-footer">
