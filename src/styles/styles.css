@@ -78,6 +78,7 @@ nav {
 /* -----------------------------section hero ----------------------------------- */
 
 .hero {
+    border: 1px solid red;
     background-color: var(--color-neutral-silver);
     font-family: var(--font);
     height: 599px;
@@ -142,6 +143,7 @@ h1 {
 /* -----------------------------section clients ----------------------------------- */
 
 .clients {
+    border: 1px solid red;
     margin-top: 40px;
     font-family: var(--font);
     height: 190px;
@@ -181,6 +183,7 @@ h1 {
 /* -----------------------------section community ----------------------------------- */
 
 .community {
+    border: 1px solid red;
     margin-top: 40px;
     font-family: var(--font);
     width: 100%;
@@ -258,6 +261,7 @@ h1 {
 /* -------------------------------section pixelgrade---------------------------------------- */
 
 .pixelgrade {
+    border: 1px solid red;
     padding: 0px 10%;
     margin-top: 40px;
     height: 433px;
@@ -310,9 +314,77 @@ h1 {
     color: var(--color-neutral-white);
 }
 
-
-
 /* -------------------------------section numbers---------------------------------------- */
+.numbers {
+    border: 1px solid red;
+    margin-top: 48px;
+    padding: 0px 10%;
+    height: 288px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font);
+}
+
+.numbers-title {
+    width: 38%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.numb-title {
+    font-size: var(--headline-2);
+    color: var(--color-neutral-d_grey);
+}
+
+span {
+    color: var(--color-primary);
+}
+
+.numb-text {
+    color: #18191F;
+    font-size: var(--body-2);
+}
+
+.numbers-info {
+    width: 38%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iten-numbers {
+    height: 60px;
+    width: 47%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.number-text {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.number-title-info {
+    color: var(--color-neutral-d_grey);
+    font-size: var(--headline-3);
+}
+
+.number-parag {
+    color: var(--color-neutral-grey);
+    font-size: var(--body-2);
+}
 
 /* -------------------------------section instruction---------------------------------------- */
 
