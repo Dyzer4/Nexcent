@@ -390,6 +390,7 @@ span {
 /* -------------------------------section instruction---------------------------------------- */
 
 .instruction {
+    background-color: var(--color-neutral-silver);
     border: 1px solid red;
     margin-top: 48px;
     padding: 0px 10%;
@@ -435,9 +436,98 @@ span {
 }
 /* -------------------------------section custumers---------------------------------------- */
 
+.custumers {
+    background-color: var(--color-neutral-silver);
+    border: 1px solid red;
+    margin-top: 48px;
+    padding: 0px 10%;
+    height: 390px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font);
+}
 
+.img-custumers{
+    width: 326px;
+    height: 326px;
+}
 
-/* -------------------------------section pixelgrade---------------------------------------- */
+.custumers-titles {
+    width: 52%;
+    height: 324px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cust-group-titles {
+    height: 244px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cust-parag {
+    color: var(--color-neutral-grey);
+    font-size: var(--body-2);
+}
+
+.person {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cust-title {
+    color: var(--color-primary);
+    font-size: var(--headline-4);
+}
+
+.cust-parag-desc {
+    color: var(--color-neutral-L_grey);
+    font-size: var(--body-2);
+}
+
+.cust-logos {
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cust-icons {
+    width: 66%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.cust-icon {
+    width: 48px;
+    height: 48px;
+}
+
+.cust-link {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--color-primary);
+}
+
+/* -------------------------------section caring---------------------------------------- */
+
+.caring {
+    border: 1px solid red;
+    margin-top: 48px;
+    padding: 0px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font);
+}
 
 /* -------------------------------footer---------------------------------------- */
 
