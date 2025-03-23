@@ -316,6 +316,7 @@ h1 {
 
 /* -------------------------------section numbers---------------------------------------- */
 .numbers {
+    background-color: var(--color-neutral-silver);
     border: 1px solid red;
     margin-top: 48px;
     padding: 0px 10%;
@@ -388,7 +389,53 @@ span {
 
 /* -------------------------------section instruction---------------------------------------- */
 
+.instruction {
+    border: 1px solid red;
+    margin-top: 48px;
+    padding: 0px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font);
+}
+
+.inst-titles {
+    width: 46%;
+    height: 308px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.inst-texts {
+    width: 91%;
+    height: 224px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inst-title {
+    font-size: var(--headline-2);
+    color: var(--color-neutral-d_grey);
+}
+
+.inst-text {
+    font-size: var(--body-2);
+    color: var(--color-neutral-grey);
+}
+
+.inst-button {
+    width: 151px;
+    height: 52px;
+    border-radius: 4px;
+    background-color: var(--color-primary);
+    color: var(--color-neutral-white);
+}
 /* -------------------------------section custumers---------------------------------------- */
+
+
 
 /* -------------------------------section pixelgrade---------------------------------------- */
 
