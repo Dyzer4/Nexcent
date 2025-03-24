@@ -3,6 +3,7 @@
 /*--------------------------------Header-------------------------------------------- */
 
 header {
+    background-color: var(--color-neutral-silver);
     width: 100%;
     height: 84px;
     display: flex;
@@ -11,7 +12,7 @@ header {
 }
 
 nav {
-    background-color: var(--color-neutral-white);
+    background-color: var(--color-neutral-silver);
     width: 40%;
     display: flex;
     justify-content: space-between;
