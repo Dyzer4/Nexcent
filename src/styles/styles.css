@@ -83,6 +83,13 @@ nav {
     align-items: center;
 }
 
+.text-hero{
+    height: 192px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .banner {
     width: 45%;
     height: 276px;
