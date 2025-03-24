@@ -44,7 +44,7 @@ nav ul{
     width: 77px;
     height: 40px;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: transparent;
     color: var(--color-primary);
     text-transform: capitalize;
 }
