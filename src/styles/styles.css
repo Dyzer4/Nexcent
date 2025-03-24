@@ -223,7 +223,8 @@ h1 {
 
 .card {
     background-color: var(--color-neutral-white);
-    border: 1px solid black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
     width: 20%;
     height: 260px;
     display: flex;
@@ -241,7 +242,6 @@ h1 {
 .cards-parag {
     font-size: var(--body-3);
     color: var(--color-neutral-grey);
-
 }
 
 /* -------------------------------section pixelgrade---------------------------------------- */
