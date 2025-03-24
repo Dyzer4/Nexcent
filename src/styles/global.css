@@ -34,4 +34,12 @@
     --color-action-success: #2E7D31;
 
     --font: "inter";
+    --headline-1: 64px;
+    --headline-2: 36px;
+    --headline-3: 28px;
+    --headline-4: 20px;
+    --body-1: 18px;
+    --body-2: 16px;
+    --body-3: 14px;
+    --body-4: 12px;
 }
