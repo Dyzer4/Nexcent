@@ -49,6 +49,7 @@ nav ul{
     color: var(--color-primary);
     text-transform: capitalize;
     font-size: var(--body-3);
+    cursor: pointer;
 }
 
 .signup {
@@ -59,6 +60,7 @@ nav ul{
     border-radius: 6px;
     color: var(--color-neutral-white);
     font-size: var(--body-3);
+    cursor: pointer;
 }
 
 /* -----------------------------section hero ----------------------------------- */
@@ -301,6 +303,7 @@ h1 {
     height: 52px;
     font-size: var(--body-2);
     color: var(--color-neutral-white);
+    cursor: pointer;
 }
 
 /* -------------------------------section numbers---------------------------------------- */
@@ -418,6 +421,7 @@ span {
     border-radius: 4px;
     background-color: var(--color-primary);
     color: var(--color-neutral-white);
+    cursor: pointer;
 }
 
 /* -------------------------------section custumers---------------------------------------- */
@@ -628,6 +632,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .footer {
