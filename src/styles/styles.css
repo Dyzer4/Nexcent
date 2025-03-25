@@ -30,6 +30,7 @@ nav ul{
     text-decoration: none;
     color: var(--color-neutral-black);
     list-style: none;
+    font-size: var(--body-2);
 }
 
 .button-wrapper {
@@ -47,6 +48,7 @@ nav ul{
     background-color: transparent;
     color: var(--color-primary);
     text-transform: capitalize;
+    font-size: var(--body-3);
 }
 
 .signup {
@@ -56,6 +58,7 @@ nav ul{
     background-color: var(--color-primary);
     border-radius: 6px;
     color: var(--color-neutral-white);
+    font-size: var(--body-3);
 }
 
 /* -----------------------------section hero ----------------------------------- */
