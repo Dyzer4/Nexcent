@@ -1,6 +1,6 @@
 @import url(global.css);
 
-.grid {
+/* .grid {
     height: 100%;
     border: 1px solid;
     position: fixed;
@@ -12,7 +12,7 @@
     border: 1px solid;
     position: fixed;
     left: 90%;
-}
+} */
 
 /*--------------------------------Header-------------------------------------------- */
 
@@ -459,7 +459,6 @@ span {
 }
 
 .custumers-titles {
-    border: 1px solid;
     width: 70%;
     height: 324px;
     display: flex;
@@ -556,7 +555,7 @@ span {
     color: var(--color-neutral-grey);
     font-size: var(--body-2);
     height: 72px;
-    width: 57%;
+    width: 638px;
     text-align: center;
 }
 
