@@ -564,11 +564,13 @@ span {
     height: 366px;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .caring-card {
     width: 368px;
     height: 366px;
+    
 }
 
 .card-caring {
@@ -594,6 +596,7 @@ span {
     position: relative;
     bottom: 100px;
     border-radius: 8px;
+    box-shadow: 0px 8px 16px 3px rgba(171, 190, 209, 0.4);
 }
 
 .caring-parag2 {
