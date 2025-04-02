@@ -696,7 +696,7 @@ footer {
     justify-content: space-between;
 }
 
-.footer-iten {
+.footer-item {
     text-decoration: none;
     color: var(--color-neutral-silver);
 }
