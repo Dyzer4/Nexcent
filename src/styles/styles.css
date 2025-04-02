@@ -674,6 +674,22 @@ footer {
 
 .copyright2 {
     color: var(--color-neutral-silver);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.socials {
+    display: flex;
+    gap:16px
+}
+
+.socials a {
+    transition: 0.4s;
+}
+
+.socials a:hover{
+    transform: translateY(-5px);
 }
 
 .services {
@@ -714,7 +730,7 @@ input {
 }
 
 input::placeholder {
-    color: var(--color-neutral-white);
+    color: #D9DBE1;
     position: relative;
     left: 10px;
 }
